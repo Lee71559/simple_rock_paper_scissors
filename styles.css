@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(71, 70, 70);
+}
+
+header{
+    background: rgb(243, 239, 200);
+    padding: 15px;
+}
+
+header> h1{
+    color:  rgb(71, 70, 70);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-board{
+    margin: 20px auto;
+    padding: 15px 15px;
+    border: 3px khaki solid;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.score-board> img{
+    width: 70px;
+    height: 70px;
+}
+
+.badge{
+    background: lightcoral;
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px khaki solid;
+    border-radius: 5px;
+}
+
+#user-label{
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}
+
+#comp-label{
+    position: absolute;
+    top: 15px;
+    left: 160px;
+}
+
+#user-img{
+    position: absolute;
+    top: 0px;
+    left: -150px;
+}
+
+#comp-img{
+    position: absolute;
+    top: 0px;
+    left: 315px;
+}
+
+.result{
+    font-size: 25px;
+    color: white;
+    padding: 10px 0px;
+}
+
+.result> p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#action-message{
+    font: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: khaki;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.choices{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+    margin: 20px 30px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    border: 3px khaki solid;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.choice> img{
+    width: 100px;
+    height: 100px;
+}
+
+.reset{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.reset> button{
+    display: inline-block;
+    padding: 5px 5px;
+    border: 3px rgb(71, 70, 70) solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: khaki;
+    background: rgb(71, 70, 70);
+}
+
+.reset> button:hover{
+    cursor: pointer;
+    border-color: khaki;
+}
+
+.green-glow{
+    border: 3px lightgreen solid;
+    box-shadow: 0 0 20px rgb(137, 172, 76);
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.red-glow{
+    border: 3px lightcoral solid;
+    box-shadow: 0 0 20px rgb(214, 44, 214);
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.blue-glow{
+    border: 3px lightblue solid;
+    box-shadow: 0 0 20px rgb(132, 132, 241);
+    padding: 30px;
+    border-radius: 50%;
+}
